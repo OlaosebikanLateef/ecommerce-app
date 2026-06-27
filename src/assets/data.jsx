@@ -154,4 +154,28 @@ export const productsData = [
         category: 'ladies',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla eos fuga maiores dolore, cum facere aperiam doloremque praesentium totam expedita quibusdam excepturi necessitatibus autem perspiciatis sunt eligendi minima quam.',
     },
+     {
+        id : 15,
+        image : cloth15,
+        title : ' Elegant Long Evening Gown',
+        price: 130,
+        category: 'ladies',
+        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla eos fuga maiores dolore, cum facere aperiam doloremque praesentium totam expedita quibusdam excepturi necessitatibus autem perspiciatis sunt eligendi minima quam.',
+    },
+    {
+        id : 16,
+        image : cloth16,
+        title : ' Elegant Long Evening Gown',
+        price: 130,
+        category: 'ladies',
+        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla eos fuga maiores dolore, cum facere aperiam doloremque praesentium totam expedita quibusdam excepturi necessitatibus autem perspiciatis sunt eligendi minima quam.',
+    },
+    {
+        id : 17,
+        image : cloth17,
+        title : ' Elegant Long Evening Gown',
+        price: 130,
+        category: 'ladies',
+        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla eos fuga maiores dolore, cum facere aperiam doloremque praesentium totam expedita quibusdam excepturi necessitatibus autem perspiciatis sunt eligendi minima quam.',
+    },
 ]

@@ -1,8 +1,10 @@
 import React, { useContext } from 'react';
 import { ShopContext } from '../Context/ShopContext';
+import { Link } from 'react-router-dom';
+
 
 const ProductList = () => {
-  const { products } = useContext(ShopContext);
+  const { products, addToCart } = useContext(ShopContext);
 
   return (
     <section className="max-w-7xl mx-auto px-4 py-16">
@@ -27,16 +29,18 @@ const ProductList = () => {
             >
               {/* Product Image */}
               <div className="overflow-hidden p-4">
+                <Link to={`/product/${product.id}`}>
                 <img
                   src={image}
-                  alt={name}
+                  alt=''
                   className="w-full h-72 object-contain group-hover:scale-105 transition-transform duration-300"
                 />
+                </Link>
               </div>
 
               {/* Product Info */}
               <div className="px-5 pb-5 text-center">
-                <h4 className="text-lg font-semibold text-gray-800 line-clamp-2">
+                <h4 className="text-lg font-se mibold text-gray-800 line-clamp-2">
                   {name}
                 </h4>
 
@@ -44,7 +48,8 @@ const ProductList = () => {
                   ${price}
                 </p>
 
-                <button className="mt-5 w-full bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 rounded-md transition duration-300">
+                <button className="cta mt-5 w-full bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 rounded-md transition duration-300" 
+                   onClick={()=> addToCart(product, id)}>
                   Add To Cart
                 </button>
               </div>

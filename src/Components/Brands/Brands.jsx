@@ -33,7 +33,7 @@ const Brand = () => {
       </div>
 
       {/* Bottom Strip */}
-      <div className="absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 -rotate-[5deg] bg-black py-4">
+      <div className="absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 -rotate-[5deg] n bg-black py-4">
         <ul className="flex justify-between  items-center text-white font-semibold whitespace-nowrap">
              <li className="flex items-center gap-2">
             <MdStarBorderPurple500 />
