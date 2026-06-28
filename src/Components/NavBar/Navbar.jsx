@@ -1,6 +1,6 @@
-import React, { useContext }from 'react';
+import  { useContext } from 'react';
 import { BiCart } from "react-icons/bi";
-import { Link, Links } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { ShopContext } from '../Context/ShopContext';
 
 const Navbar = () => {

@@ -1,5 +1,4 @@
-import React, { createContext, useEffect, useState } from 'react';
-import './ShopContext.css';
+import  { createContext, useEffect, useState } from 'react';
 import { productsData } from '../../assets/data';
 import {toast} from "react-toastify"; 
 import './ShopContext.css'
