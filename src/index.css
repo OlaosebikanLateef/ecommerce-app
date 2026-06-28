@@ -1,15 +1,7 @@
+/* For Tailwind CSS v4 */
 @import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* *{
-  margin: 0;
-  padding: 0;
-} */
-
- /* font-family: "Antonio", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal; */
+/* Your custom styles below */
+@layer base {
+  /* your styles */
+}
