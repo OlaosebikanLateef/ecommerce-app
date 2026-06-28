@@ -25,7 +25,7 @@ const {quantity} = useContext(ShopContext)
       {/* Logo */}
       <div>
         <h2 className="logo text-2xl font-semibold font-['Antonio',sans-serif]">
-          CIARA COLLECTIONS
+          LATEEF COLLECTIONS
         </h2>
       </div>
 

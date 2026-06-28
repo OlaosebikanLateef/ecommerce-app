@@ -6,9 +6,7 @@ import ProductDetails from './pages/ProductDetails/ProductDetails';
 import Cart from './Components/Cart/Cart';
 import Footer from './Components/Footer/Footer';
 import { ToastContainer } from 'react-toastify';
- 
 
-import './App.css'
 
 function App() {
  

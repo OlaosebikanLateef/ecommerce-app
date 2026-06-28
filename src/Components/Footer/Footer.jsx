@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="bg-black text-white pb-12">
       <div className="flex justify-between items-center p-[30px] border-b-2 border-[#666]">
         <div className="footer-name">
-          <h2>CIARA COLLECTIONS</h2>
+          <h2>LATEEF COLLECTIONS</h2>
         </div>
         
         <div className="flex gap-2.5">
@@ -19,7 +19,7 @@ const Footer = () => {
       </div>
       
       <div className="text-center py-3.5">
-        <p>CIARA COLLECTIONS &copy; 2026. All rights reserved</p>
+        <p>LATEEF COLLECTIONS &copy; 2026. All rights reserved</p>
       </div>
     </div>
   )
