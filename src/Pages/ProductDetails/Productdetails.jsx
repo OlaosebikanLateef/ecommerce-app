@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { ShopContext } from "../../Components/Context/ShopContext";
 import { productsData } from "../../assets/data";
 import { useParams } from "react-router-dom";
